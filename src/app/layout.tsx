@@ -15,8 +15,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Laa'Red",
-  description: "Created by Tanzeel-Azeem",
+  title: "LaaRed",
+  description: "Created by Tanzeel",
+  icons: {
+    icon: "/favicon.ico", 
+    shortcut: "/favicon.ico",
+    apple: "/laareds-22.jpg", 
+  }
 };
 
 export default function RootLayout({
