@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='hero background max-w-screen-2xl mx-auto  px-17  flex justify-center xl:justify-between items-center flex-wrap'>
       <div className='w-[500px] my-20 text-center lg:mr-20 xl:mr-0'>
-        <span className='text color text-5xl   xl:text-7xl  font-bold cursor-default '> Jewelry that Speaks Your Language. </span> <br />
+        <span className='text color text-5xl   xl:text-7xl  font-bold cursor-default '> jewellery that Speaks Your Language. </span> <br />
         <div className='mt-5  cursor-default  '>
            <span className='text color text-xl font-serif font-semibold   '> Explore our Curated collection of stylish  accessories tailored to your Unique taste . </span>
         </div>

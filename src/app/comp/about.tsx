@@ -1,4 +1,4 @@
-export default function AboutSection() {
+export default function About() {
     return (
       <section  className="bg-[#FAF3E3] text-[#7A3E2D] py-16 px-6 md:px-12 lg:px-24 cursor-default">
         <div className="max-w-4xl mx-auto text-center">
@@ -17,26 +17,26 @@ export default function AboutSection() {
             <div className="flex items-start gap-4 " >
               <span className="text-2xl">💎</span>
               <p className="text-gray-700">
-                <strong className="text-[#7A3E2D]">Handpicked Perfection</strong> – Every piece is thoughtfully chosen to match your vibe.
+                <strong className="text-[#7A3E2D]">Handpicked Perfection</strong> {"–"} Every piece is thoughtfully chosen to match your vibe.
               </p>
             </div>
             <div className="flex items-start gap-4">
               <span className="text-2xl">💎</span>
               <p className="text-gray-700">
-                <strong className="text-[#7A3E2D]">Trendy, Yet Timeless</strong> – Accessories that stay stylish beyond seasons.
+                <strong className="text-[#7A3E2D]">Trendy, Yet Timeless</strong> {"–"} Accessories that stay stylish beyond seasons.
               </p>
             </div>
             <div className="flex items-start gap-4">
               <span className="text-2xl">💎</span>
               <p className="text-gray-700">
-                <strong className="text-[#7A3E2D]">You-Centric Shopping</strong> – Easy, hassle-free, and tailored to your style.
+                <strong className="text-[#7A3E2D]">You-Centric Shopping</strong> {"–"} Easy, hassle-free, and tailored to your style.
               </p>
             </div>
           </div>
         </div>
         
         <div className="max-w-4xl mx-auto text-center mt-10 text-gray-700">
-          <p id="contact" className="italic">We don’t just sell accessories—we help you <strong>wear your story</strong>. So go ahead, mix, match, layer, and shine—because you deserve nothing less than extraordinary. ✨</p>
+          <p id="contact" className="italic">We {"don’t"} just sell accessories—we help you <strong>wear your story</strong>. So go ahead, mix, match, layer, and shine—because you deserve nothing less than extraordinary. ✨</p>
         </div>
       </section>
     );
