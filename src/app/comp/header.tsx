@@ -8,6 +8,8 @@ import {
     SheetTrigger,
   } from "@/components/ui/sheet"
 import { AlignJustify,} from 'lucide-react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 
 const Header = () => {
@@ -15,7 +17,7 @@ const Header = () => {
     <section className='hero background  flex justify-between items-center px-5 sticky top-0 z-50 '>
         <div>
             {/* <Image src={'/logo2.jpeg'} alt="LaaRed's logo" width={2000} height={100}/> */}
-            <img src="logo2.jpeg" alt="" width={150} height={50} />
+           <Link href={'/'}> <Image src="/logo2.jpeg" alt="" width={150} height={50} /></Link>
         </div>
         <div className=' md:hidden flex items-center'>
         <Sheet>
@@ -28,10 +30,11 @@ const Header = () => {
                   <img src="logo2.jpeg" alt="" width={200} height={50} />
                   </div>
                     <ul className='color text-lg text-black font-serif cursor-pointer ml-5'>
-                        <li className='color  hover:scale-110 duration-300'>Home</li>
-                        <li className='color  hover:scale-110 duration-300'>Services</li>              
-                        <li className='color  hover:scale-110 duration-300'>About</li>
-                        <li className='color  hover:scale-110 duration-300'>Contact</li>
+                        <Link href={'/'}><li className='color  hover:scale-110 duration-300'>Home</li></Link>
+                        <Link href={'/products'}><li className='color  hover:scale-110 duration-300'>Products</li></Link>
+                        <Link href={'#service'}><li className='color  hover:scale-110 duration-300'>Services</li></Link>              
+                        <Link href={'#about'}><li className='color  hover:scale-110 duration-300'>About</li></Link>
+                        <Link href={'#contact'}><li className='color  hover:scale-110 duration-300'>Contact</li></Link>
                     </ul>
                 </SheetDescription>
                 </SheetHeader>
@@ -41,11 +44,12 @@ const Header = () => {
         </div>
         <div  className='hidden md:block'>
            <ul className='flex space-x-6 text-base lg:text-lg  font-serif cursor-pointer py-5 '>
-              <li className=' hover:scale-110 duration-300'>Home</li>
-              <li className=' hover:scale-110 duration-300'>Services</li>
-             <li className=' hover:scale-110 duration-300'>About</li>
-             <li className=' hover:scale-110 duration-300'>Contact</li>
-           </ul>
+              <Link href={'/'}><li className='font-serif font-normal hover:scale-110 duration-300'>Home</li></Link>
+              <Link href={'/products'}><li className='font-serif font-normal hover:scale-110 duration-300'>Products</li></Link>
+              <Link href={'#service'}><li className='font-serif font-normal hover:scale-110 duration-300'>Services</li></Link>
+              <Link href={'#about'}><li className='font-serif font-normal hover:scale-110 duration-300'>About</li></Link>
+              <Link href={'#contact'}><li className='font-serif font-normal hover:scale-110 duration-300'>Contact</li></Link>
+            </ul>
         </div>
     </section>
   )

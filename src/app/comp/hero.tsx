@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Hero = () => {
@@ -7,14 +8,14 @@ const Hero = () => {
       <div className='w-[500px] my-20 text-center lg:mr-20 xl:mr-0'>
         <span className='text color text-5xl   xl:text-7xl  font-bold cursor-default '> Jewelry that Speaks Your Language. </span> <br />
         <div className='mt-5  cursor-default  '>
-           <span className='text color text-xl font-serif font-semibold   '> Explore our Curated collection of stylish clothing and accessories tailored to your Unique taste . </span>
+           <span className='text color text-xl font-serif font-semibold   '> Explore our Curated collection of stylish  accessories tailored to your Unique taste . </span>
         </div>
         
         
         
         <br /><br />
         <div className='flex justify-center'>
-        <span className='hero-btn w-64 md:w-72 text-center cursor-pointer'> Explore the Collection  </span>
+          <Link href={'/products'} ><span className='hero-btn w-64 md:w-72 text-center cursor-pointer'> Explore the Collection  </span></Link>
         </div>
       </div>
       <div className='shadow-img pb-20'>

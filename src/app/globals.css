@@ -125,11 +125,17 @@
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   margin: 0;
   padding: 0; 
+  background-color: #fae8e8;
+  
 }
+
 
 
 .background{
@@ -235,4 +241,20 @@ body{
     opacity: 1;
     scale: 1;
   }
+}
+
+.text-shadow{
+  box-shadow: 10px 20px 10px 10px #171412
+}
+
+.bgcolor{
+  background-color: #F7EFE7;
+}
+
+.realtext{
+  color: #893214;
+}
+
+.hover:hover span{
+  display: block;
 }

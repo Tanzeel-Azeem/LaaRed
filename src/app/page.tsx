@@ -1,15 +1,21 @@
 // "use strict";
-
-import Header from "../app/comp/header"
 import Hero from "../app/comp/hero"
-import Product from "../app/comp/product"
+import Trending from "../app/comp/trending"
+import Service from "../app/comp/service"
+import About from "../app/comp/about"
+// import Contact from "../app/comp/contact"
+
+
 
 export default function Home() {
   return (
     <div >
-      <Header />
+      
       <Hero />
-      <Product />
+      <Trending/>
+      <Service />
+      <About />
+      
     </div>
   );
 }

@@ -89,7 +89,7 @@ export const GET = () => {
         {
             id: 15,
             name: "Indian Bali",
-            price: 350,
+            price: 650,
             url: "/indian-bali-1.jpg"
         },
         {
