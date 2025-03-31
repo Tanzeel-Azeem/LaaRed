@@ -11,7 +11,7 @@ interface IProduct {
 
 const Product = async () => {
 
-  const res = await fetch ("http://localhost:3000/api/products")
+  const res = await fetch ("https://laareds-api-8pzp.vercel.app/api/hello")
   const data : IProduct[] = await res.json()
 
 

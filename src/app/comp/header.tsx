@@ -32,9 +32,9 @@ const Header = () => {
                     <ul className='color text-lg text-black font-serif cursor-pointer ml-5'>
                         <Link href={'/'}><li className='color  hover:scale-110 duration-300'>Home</li></Link>
                         <Link href={'/products'}><li className='color  hover:scale-110 duration-300'>Products</li></Link>
-                        <Link href={'#service'}><li className='color  hover:scale-110 duration-300'>Services</li></Link>              
-                        <Link href={'#about'}><li className='color  hover:scale-110 duration-300'>About</li></Link>
-                        <Link href={'#contact'}><li className='color  hover:scale-110 duration-300'>Contact</li></Link>
+                        <Link href={'/#service'}><li className='color  hover:scale-110 duration-300'>Services</li></Link>              
+                        <Link href={'/#about'}><li className='color  hover:scale-110 duration-300'>About</li></Link>
+                        <Link href={'/#contact'}><li className='color  hover:scale-110 duration-300'>Contact</li></Link>
                     </ul>
                 </SheetDescription>
                 </SheetHeader>
@@ -46,9 +46,9 @@ const Header = () => {
            <ul className='flex space-x-6 text-base lg:text-lg  font-serif cursor-pointer py-5 '>
               <Link href={'/'}><li className='font-serif font-normal hover:scale-110 duration-300'>Home</li></Link>
               <Link href={'/products'}><li className='font-serif font-normal hover:scale-110 duration-300'>Products</li></Link>
-              <Link href={'#service'}><li className='font-serif font-normal hover:scale-110 duration-300'>Services</li></Link>
-              <Link href={'#about'}><li className='font-serif font-normal hover:scale-110 duration-300'>About</li></Link>
-              <Link href={'#contact'}><li className='font-serif font-normal hover:scale-110 duration-300'>Contact</li></Link>
+              <Link href={'/#service'}><li className='font-serif font-normal hover:scale-110 duration-300'>Services</li></Link>
+              <Link href={'/#about'}><li className='font-serif font-normal hover:scale-110 duration-300'>About</li></Link>
+              <Link href={'/#contact'}><li className='font-serif font-normal hover:scale-110 duration-300'>Contact</li></Link>
             </ul>
         </div>
     </section>
