@@ -23,7 +23,7 @@ const Product = async () => {
           {"LaaRed's"} Products
           {/* <span className="absolute -top-3 -right-3 text-yellow-500">✨</span> */}
         </h2>
-        <p className="text-xl md:text-2xl text-[#8B3D26] mb-2">"Sparkle, Shine, and Slay!" ✨💖</p>
+        <p className="text-xl md:text-2xl text-[#8B3D26] mb-2">{"Sparkle, Shine, and Slay!"} ✨💖</p>
       </div>
       <div className='product flex justify-evenly items-center px-12 flex-wrap'>
       {data.map ((pro) => {

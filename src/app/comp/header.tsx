@@ -27,7 +27,7 @@ const Header = () => {
                 <SheetTitle></SheetTitle>
                 <SheetDescription className=''>
                   <div className='flex justify-center items-center'>
-                  <img src="logo2.jpeg" alt="" width={200} height={50} />
+                  <Image src="logo2.jpeg" alt="" width={200} height={50} />
                   </div>
                     <ul className='color text-lg text-black font-serif cursor-pointer ml-5'>
                         <Link href={'/'}><li className='color  hover:scale-110 duration-300'>Home</li></Link>
